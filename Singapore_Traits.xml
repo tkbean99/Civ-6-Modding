@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameInfo>
+  <Types>
+    <Row Type="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_DISTRICT_TKB_HDB_ESTATE" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" Kind="KIND_TRAIT"/>
+  </Types>
+
+  <CivilizationTraits>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOABL_TRADE"/>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" TraitType="TRAIT_CIVILIZATION_DISTRICT_TKB_HDB_ESTATE"/>
+  </CivilizationTraits>
+
+  <LeaderTraits>
+    <Row LeaderType="LEADER_TKB_LKY" TraitType="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST"/>
+  </LeaderTraits>
+
+  <Traits>
+    <Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOABL_TRADE" Name="LOC_TRAIT_CIVILIZATION_CROSSROADS_OF_GLOABL_TRADE_NAME" Description="LOC_TRAIT_CIVILIZATION_CROSSROADS_OF_GLOABL_TRADE_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_DISTRICT_TKB_HDB_ESTATE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_TKB_HDB_ESTATE_NAME" Description="LOC_TRAIT_CIVILIZATION_DISTRICT_TKB_HDB_ESTATE_DESCRIPTION"/>
+    <Row TraitType="TRAIT_TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" Name="LOC_TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST_NAME" Description="LOC_TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST_DESCRIPTION"/>
+  </Traits>
+
+  <TraitModifiers>
+    <!--Adding modifiers to add to Singapore's trade route capacity-->
+	<!--Ancient and Classical Era-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_SAILING_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_CELESTIAL_NAVIGATION_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_CURRENCY_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<!--Medieval, Renaissance and Industrial Era-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_CARTOGRAPHY_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_STEAM_POWER_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_MERCANTILISM_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_COLONIALISM_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<!--Beyond Modern Era-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_FLIGHT_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_REFINING_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_TELECOMMUNICATIONS_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_SG_GLOBALIZATION_ADD_TRADE_ROUTE</ModifierId>
+	</Row>
+	<!--Assigning Dharma to Crossroads of Trade-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_AMENITIES_FOR_MIN_FOLLOWERS</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ORIGIN_DESTINATION_RELIGIOUS_PRESSURE</ModifierId>
+	</Row>
+	<!--Assigning Dynastic Cycles to Crossroads of Trade-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_CIVIC_BOOST</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_TECHNOLOGY_BOOST</ModifierId>
+	</Row>
+	<!--Assigning Meiji Restoration to Crossroads of Trade-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+	</Row>
+	<!--Assigning Great Nusantara to Crossroads of Trade-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_NUSANTARA_COAST_ENTERTAINMENT</ModifierId>
+	</Row>
+	<!--Assigning Workshop of the World to Crossroads of Trade-->
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_CULTURE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_GOLD</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_FOOD</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJUST_LIGHTHOUSE_STOCKPILE_CAP</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJUST_SHIPYARD_STOCKPILE_CAP</ModifierId>
+	</Row>
+	<Row>
+		<TraitType>TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE</TraitType>
+		<ModifierId>TRAIT_ADJUST_SEAPORT_STOCKPILE_CAP</ModifierId>
+	</Row>
+	<!--Assigning Trade Route Gold Bonuses for water tiles in city-->
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRADE_ROUTE_SG_GOLD_COAST_ORIGIN"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRADE_ROUTE_SG_GOLD_LAKE_ORIGIN"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRADE_ROUTE_SG_GOLD_OCEAN_ORIGIN"/>
+	<!--Assigning Trade Route Bonuses from destination improvements to Crossroads of Trade-->
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_TRADE_SG_FOOD_FROM_PLANTATIONS"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_TRADE_SG_GOLD_FROM_PLANTATIONS"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_TRADE_SG_SCIENCE_FROM_PLANTATIONS"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_TRADE_SG_PRODUCTION_FROM_STRATEGIC"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_TRADE_SG_GOLD_FROM_STRATEGIC"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_TRADE_SG_SCIENCE_FROM_STRATEGIC"/>
+	<!--Assigning traits similar to Mediterranean Bride for incoming international trade routes-->
+	<!--What civilizations sending trade routes to Singapore receive-->
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_GOLD"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_CULTURE"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_SCIENCE"/>
+	<!--What Singapore receives from incoming trade routes-->
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_FOOD"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_PRODUCTION"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_GOLD"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_CULTURE"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_SCIENCE"/>
+	<!--Assigning a trait to prevent building of settlers-->
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_SG_SETTLER_DISABLED"/>
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_SG_FOUND_CITIES_DISABLED"/>
+	<!--Assigning a trait that causes captured cities to lose 50 loyalty per turn based off Ottoman traits-->
+	<Row TraitType="TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE" ModifierId="TRAIT_CAPTURED_LOYALTY_DRASTIC_DECREASE" />
+    <!--Additional Economic Policy slot-->
+	<Row TraitType="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" ModifierId="TRAIT_SG_ECONOMIC_GOVERNMENT_SLOT" />
+	<!--Reduced time for governors to establish-->
+	<Row TraitType="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" ModifierId="TRAIT_SG_REDUCED_GOVERNOR_TRANSITION_STRENGTH" />
+	<!--+50% City Project Production Bonus-->
+	<Row TraitType="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" ModifierId="TRAIT_SG_CITY_PROJECTS_PRODUCTION_BOOST" />
+	<!--+100% from City-State Suzerain-->
+	<Row TraitType="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" ModifierId="TRAIT_SG_DOUBLE_FAVOR_FROM_CITY_STATES" />
+	<!--Additional Envoy point from palace-->
+	<Row TraitType="TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST" ModifierId="TRAIT_SG_ONE_ENVOY_POINT_PER_TURN" />
+  </TraitModifiers>
+
+  	<Modifiers>
+		<!--Adding Modifiers to add trade capacity up the tech and civic tree-->
+		<!--Ancient and Classical-->
+		<Row>
+			<ModifierId>TRAIT_SG_SAILING_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_SAILING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_CELESTIAL_NAVIGATION_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CELESTIAL_NAVIGATION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_CURRENCY_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CURRENCY</SubjectRequirementSetId>
+		</Row>
+		<!--Medieval, Renaissance and Industrial-->
+		<Row>
+			<ModifierId>TRAIT_SG_CARTOGRAPHY_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CARTOGRAPHY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_STEAM_POWER_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_STEAM_POWER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_MERCANTILISM_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MERCANTILISM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_COLONIALISM_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_COLONIALISM</SubjectRequirementSetId>
+		</Row>
+		<!--Modern, Atomic and Information-->
+		<Row>
+			<ModifierId>TRAIT_SG_FLIGHT_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_FLIGHT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_REFINING_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_REFINING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_TELECOMMUNICATIONS_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_TELECOMMUNICATIONS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_GLOBALIZATION_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GLOBALIZATION</SubjectRequirementSetId>
+		</Row>
+		<!--Trade route modifiers for water tile in starting city-->
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_COAST_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_LAKE_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_OCEAN_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_INTERNATIONAL</ModifierType>
+		</Row>
+		<!--Trade route modifiers for plantations-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_FOOD_FROM_PLANTATIONS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_IMPROVEMENT_IN_TARGET</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_PLANTATIONS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_IMPROVEMENT_IN_TARGET</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_PLANTATIONS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_IMPROVEMENT_IN_TARGET</ModifierType>
+		</Row>
+		<!--Trade route modifiers for strategic resources-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_PRODUCTION_FROM_STRATEGIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_STRATEGIC_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_STRATEGIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_STRATEGIC_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_STRATEGIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_STRATEGIC_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!--Assigning modifier types inspired by Cleopatra's 'Mediterranean Bride' for incoming trade routes-->
+		<!--What civilizations sending trade routes to Singapore receive-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<!-- What Singapore receives from incoming trade-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<!--Disable Settler building-->
+		<Row>
+			<ModifierId>TRAIT_SG_SETTLER_DISABLED</ModifierId>
+			<ModifierType>MODIFIER_SG_SETTLER_DISABLED</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>TRAIT_SG_FOUND_CITIES_DISABLED</ModifierId>
+			<ModifierType>MODIFIER_SG_ADJUST_FOUND_CITY_ABILITY</ModifierType>
+		</Row>
+		<!--Assigning modifier types to adjust captured city loyalty-->
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_LOYALTY_DRASTIC_DECREASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+        <!--Additional Economic Policy slot-->
+		<Row>
+			<ModifierId>TRAIT_SG_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>TRAIT_SG_ONE_ENVOY_POINT_PER_TURN
+		</Row>
+		<!--+50% City Project Production Bonus-->
+		<Row>
+			<ModifierId>TRAIT_SG_CITY_PROJECTS_PRODUCTION_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_PROJECTS_PRODUCTION</ModifierType>
+		</Row>
+		<!--Reduced time for governors to establish-->
+		<Row>
+			<ModifierId>TRAIT_SG_REDUCED_GOVERNOR_TRANSITION_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_SG_PLAYER_GOVERNORS_ADJUST_TRANSITION_STRENGTH</ModifierType>
+		</Row>
+		<!--+100% from City-State Suzerain-->
+		<Row>
+			<ModifierId>TRAIT_SG_DOUBLE_FAVOR_FROM_CITY_STATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SUZERAIN_FAVOR_MULTIPLIER</ModifierType>
+		</Row>
+		<!--Additional Envoy point from palace-->
+		<Row>
+			<ModifierId>TRAIT_SG_ONE_ENVOY_POINT_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+
+  <RequirementSets>
+		<!--RequirementSets for adding trade route capacity-->
+		<!--Ancient and Classical-->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SAILING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CURRENCY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--Medieval, Renaissance and Industrial-->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CARTOGRAPHY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_STEAM_POWER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COLONIALISM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MERCANTILISM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--Modern, Atomic and Information-->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_FLIGHT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_REFINING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TELECOMMUNICATIONS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_GLOBALIZATION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+  <Requirements>
+		<!--Requirements for adding trade route capacity-->
+		<!--Ancient and Classical-->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_SAILING</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!--Medieval, Renaissance and Industrial-->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CARTOGRAPHY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_STEAM_POWER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_COLONIALISM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MERCANTILISM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<!--Modern, Atomic and Information-->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_FLIGHT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_REFINING</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TELECOMMUNICATIONS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_GLOBALIZATION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+
+  <RequirementSetRequirements>
+		<!--RequirementSetRequirements for adding trade route capacity-->
+		<!--Ancient and Classical-->
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_SAILING</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_SAILING</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_CELESTIAL_NAVIGATION</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_CURRENCY</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY</RequirementId>
+		</Row>
+		<!--Medieval, Renaissance and Industrial-->
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_CARTOGRAPHY</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CARTOGRAPHY</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_STEAM_POWER</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_STEAM_POWER</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_MERCANTILISM</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_MERCANTILISM</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_COLONIALISM</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_COLONIALISM</RequirementId>
+		</Row>
+		<!--Modern, Atomic and Information-->
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_FLIGHT</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_FLIGHT</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_REFINING</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_REFINING</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_TELECOMMUNICATIONS</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TELECOMMUNICATIONS</RequirementId>
+		</Row>
+		<Row>
+			<SubjectRequirementSetId>PLAYER_HAS_GLOBALIZATION</SubjectRequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_GLOBALIZATION</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+  <RequirementArguments>
+		<!--RequirementArguments for adding trade route capacity-->
+		<!--Ancient and Classical-->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_SAILING</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_SAILING</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CELESTIAL_NAVIGATION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CURRENCY</Value>
+		</Row>
+		<!--Medieval,Renaissance and Industrial-->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CARTOGRAPHY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CARTOGRAPHY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_STEAM_POWER</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_STEAM_POWER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_COLONIALISM</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_COLONIALISM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MERCANTILISM</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MERCANTILISM</Value>
+		</Row>
+		<!--Modern, Atomic and Information-->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_FLIGHT</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_FLIGHT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_REFINING</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_REFINING</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TELECOMMUNICATIONS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_TELECOMMUNICATIONS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_GLOBALIZATION</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_GLOBALIZATION</Value>
+		</Row>
+	</RequirementArguments>
+
+	<ModifierArguments>
+		<!--ModifierArguments for additional trade route capacity-->
+		<!--Ancient and Classical-->
+		<Row>
+			<ModifierId>TRAIT_SG_SAILING_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_CELESTIAL_NAVIGATION_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_CURRENCY_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Medieval, Renaissance and Industrial-->
+		<Row>
+			<ModifierId>TRAIT_SG_CARTOGRAPHY_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_STEAM_POWER_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_MERCANTILISM_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_COLONIALISM_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Modern, Atomic and Information-->
+		<Row>
+			<ModifierId>TRAIT_SG_FLIGHT_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_REFINING_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_TELECOMMUNICATIONS_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SG_GLOBALIZATION_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--ModifierArguments for water tile trade route bonuses-->
+		<!--ModifierArguments for coast tile trade route bonuses-->
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<!--ModifierArguments for lake tile trade route bonuses-->
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_LAKE_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_LAKE_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_LAKE_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_LAKE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_LAKE_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<!--ModifierArguments for ocean tile trade route bonuses-->
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_OCEAN_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_OCEAN_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_OCEAN_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_SG_GOLD_OCEAN_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<!--ModifierArguments for Plantation Trade Route Bonuses-->
+		<!--ModifierArguments for Plantation Trade Route Food Bonus-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_FOOD_FROM_PLANTATIONS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_FOOD_FROM_PLANTATIONS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_PLANTATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_FOOD_FROM_PLANTATIONS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_FOOD_FROM_PLANTATIONS</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<!--ModifierArguments for Plantation Trade Route Gold Bonus-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_PLANTATIONS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_PLANTATIONS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_PLANTATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_PLANTATIONS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_PLANTATIONS</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<!--ModifierArguments for Plantation Trade Route Gold Bonus-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_PLANTATIONS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_PLANTATIONS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_PLANTATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_PLANTATIONS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_PLANTATIONS</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<!--ModifierArguments for Strategic Resource Trade Route Bonuses-->
+		<!--ModifierArguments for Strategic Resource Trade Route Production Bonus-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_PRODUCTION_FROM_STRATEGIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_PRODUCTION_FROM_STRATEGIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--ModifierArguments for Strategic Resource Trade Route Gold Bonus-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_STRATEGIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_GOLD_FROM_STRATEGIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--ModifierArguments for Strategic Resource Trade Route Science Bonus-->
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_STRATEGIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADE_SG_SCIENCE_FROM_STRATEGIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--What civs gain from sending trade to Singapore-->
+		<!--Additional Gold-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<!--Additional Culture-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Additional Science-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_OFFER_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--What Singapore receives from incoming trade-->
+		<!--Food gains-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Production gains-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Gold gains-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Culture gains-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--Science gains-->
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_TRANSHIPMENT_GAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--Disabling Settler-->
+		<Row>
+			<ModifierId>TRAIT_SG_SETTLER_DISABLED</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SG_FOUND_CITIES_DISABLED</ModifierId>
+			<Name>CanFoundCities</Name>
+			<Value>False</Value>
+		</Row>
+		<!--ModifierArguments ensuring captured cities cannot be kept long-->
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_LOYALTY_DRASTIC_DECREASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+        <!--Additional Economic Policy slot-->
+		<Row>
+			<ModifierId>TRAIT_SG_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<!--+50% City Project Production Bonus-->
+		<Row>
+			<ModifierId>TRAIT_SG_CITY_PROJECTS_PRODUCTION_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--Reduced time for governors to establish-->
+		<Row>
+			<ModifierId>TRAIT_SG_REDUCED_GOVERNOR_TRANSITION_STRENGTH</ModifierId>
+			<Name>TransitionStrength</Name>
+			<Value>200</Value>
+		</Row>
+		<!--+100% from City-State Suzerain-->
+		<Row>
+			<ModifierId>TRAIT_SG_DOUBLE_FAVOR_FROM_CITY_STATES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Additional Envoy point from palace-->
+		<Row>
+			<ModifierId>TRAIT_SG_ONE_ENVOY_POINT_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+  <ModifierStrings>
+  </ModifierStrings>
+
+  <DynamicModifiers>
+		<!--Disabling settlers for Singapore-->
+		<Row>
+			<ModifierType>MODIFIER_SG_SETTLER_DISABLED</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_UNIT_BUILD_DISABLED</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_SG_ADJUST_FOUND_CITY_ABILITY</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_SG_ADJUST_FOUND_CITY_ABILITY</EffectType>
+		</Row>
+        <Row>
+			<ModifierType>MODIFIER_SG_PLAYER_GOVERNORS_ADJUST_TRANSITION_STRENGTH</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_GOVERNORS</CollectionType>
+			<EffectType>EFFECT_SG_GOVERNOR_ADJUST_TRANSITION_STRENGTH</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<GameEffectArguments>
+		<!--Disabling founding of cities-->
+		<Row Type="EFFECT_SG_ADJUST_FOUND_CITY_ABILITY" Name="CanFoundCities" Description="Prevents founding of cities by major civ" ArgumentType="bool" Required="0" />
+        <Row Type="EFFECT_SG_GOVERNOR_ADJUST_TRANSITION_STRENGTH" Name="TransitionStrength" Description="Modifies time taken for governor to establish in city" ArgumentType="int" Required="0" />
+    </GameEffectArguments>
+	
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CityName="LOC_CITY_NAME_TKB_SINGAPORE" />
+	</CityNames>
+
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Tier="3" FeatureType="FEATURE_JUNGLE"/>
+	</StartBiasFeatures>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Tier="1" TerrainType="TERRAIN_COAST"/>
+	</StartBiasTerrains>
+
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Tier="1"/>
+	</StartBiasRivers>
+</GameInfo>

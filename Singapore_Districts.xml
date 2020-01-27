@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameInfo>
+	
+  <Types>
+    <Row Type="DISTRICT_TKB_HDB_ESTATE" Kind="KIND_DISTRICT"/>
+  </Types>
+
+  <Districts>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_TKB_HDB_ESTATE" DistrictType="DISTRICT_TKB_HDB_ESTATE" MilitaryDomain="NO_DOMAIN" CaptureRemovesCityDefenses="false" CaptureRemovesBuildings="false" ZOC="true" InternalOnly="false" NoAdjacentCity="false" Aqueduct="false" RequiresPopulation="false" RequiresPlacement="true" Cost="27" AdvisorType="ADVISOR_GENERIC" PlunderType="PLUNDER_GOLD" Description="LOC_DISTRICT_TKB_HDB_ESTATE_DESCRIPTION" Name="LOC_DISTRICT_TKB_HDB_ESTATE_NAME" CityStrengthModifier="2" CostProgressionParam1="1000" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PlunderAmount="50" PrereqCivic="CIVIC_URBANIZATION" Entertainment="3" Housing="10" OnePerCity="false"/>
+	</Districts>
+
+  <DistrictReplaces>
+		<Row ReplacesDistrictType="DISTRICT_NEIGHBORHOOD" CivUniqueDistrictType="DISTRICT_TKB_HDB_ESTATE"/>
+	</DistrictReplaces>
+    
+  <DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TKB_HDB_ESTATE</DistrictType>
+			<ModifierId>TKB_HDB_ESTATE_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_TKB_HDB_ESTATE</DistrictType>
+			<ModifierId>TKB_HDB_ESTATE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_TKB_HDB_ESTATE</DistrictType>
+			<ModifierId>TKB_HDB_ESTATE_TRADE_ROUTE_CAPACITY</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+  <Modifiers>
+		<Row>
+		<ModifierId>TKB_HDB_ESTATE_TRADE_ROUTE_CAPACITY</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+
+  <ModifierArguments>
+
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_TRADE_ROUTE_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TKB_HDB_ESTATE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+  
+</GameInfo>

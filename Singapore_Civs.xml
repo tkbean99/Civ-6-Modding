@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameInfo>
+  <Types>
+    <Row Type="CIVILIZATION_TKB_SINGAPORE" Kind="KIND_CIVILIZATION"/>
+    <Row Type="LEADER_TKB_LKY" Kind="KIND_LEADER"/>
+  </Types>
+
+  <Civilizations>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Name="LOC_CIVILIZATION_TKB_SINGAPORE_NAME" Description="CIVILIZATION_TKB_SINGAPORE_DESCRIPTION" Adjective="LOC_CIVILIZATION_TKB_SINGAPORE_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="1" Ethnicity="ETHNICITY_ASIAN"/>
+  </Civilizations>
+
+  <Leaders>
+    <Row LeaderType="LEADER_TKB_LKY" Name="LOC_LEADER_TKB_LKY_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+  </Leaders>
+
+  <CivilizationLeaders>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" LeaderType="LEADER_TKB_LKY" CapitalName="LOC_CITY_NAME_TKB_SINGAPORE"/>
+  </CivilizationLeaders>
+
+  <Colors>
+    <Row Type="COLOR_PLAYER_TKB_SINGAPORE_PRIMARY" Red="0.774" Green="0.127" Blue="0.223" Alpha="1" />
+    <Row Type="COLOR_PLAYER_TKB_SINGAPORE_SECONDARY" Red="0.380" Green="0.415" Blue="0.713" Alpha="1" />
+    <Row Type="COLOR_PLAYER_TKB_SINGAPORE_TEXT" Red="0" Green="0.28" Blue="0.14" Alpha="1" />
+    <Row Type="COLOR_PLAYER_TKB_SINGAPORE_PRIMARY1" Red="0.774" Green="0.130" Blue="0.223" Alpha="1" />
+    <Row Type="COLOR_PLAYER_TKB_SINGAPORE_SECONDARY1" Red="0.380" Green="0.420" Blue="0.713" Alpha="1" />
+    <Row Type="COLOR_PLAYER_TKB_SINGAPORE_TEXT1" Red="0" Green="0.28" Blue="0.20" Alpha="1" />
+  </Colors>
+
+  <PlayerColors>
+    <Row Type="LEADER_TKB_LKY" Usage="Unique" PrimaryColor="COLOR_PLAYER_TKB_SINGAPORE_PRIMARY1" SecondaryColor="COLOR_PLAYER_TKB_SINGAPORE_SECONDARY1" TextColor="COLOR_PLAYER_TKB_SINGAPORE_TEXT1" />
+  </PlayerColors>
+
+  <LoadingInfo>
+    <Row LeaderType="LEADER_TKB_LKY" ForegroundImage="LEADER_TKB_LKY_NEUTRAL" BackgroundImage="LEADER_GORGO_BACKGROUND" EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+  </LoadingInfo>
+
+  <DiplomacyInfo>
+    <Row Type="LEADER_TKB_LKY" BackgroundImage="LEADER_GORGO_BACKGROUND"/>
+  </DiplomacyInfo>
+
+  <CityNames>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CityName="LOC_CITY_NAME_TKB_SINGAPORE"/>
+  </CityNames>
+
+  <LeaderQuotes>
+    <Row LeaderType="LEADER_TKB_LKY" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_TKB_LKY_QUOTE" />
+  </LeaderQuotes>
+
+  <CivilizationInfo>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_TKB_SINGAPORE_LOCATION" SortIndex="10"/>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_TKB_SINGAPORE_SIZE" SortIndex="20"/>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_TKB_SINGAPORE_POPULATION" SortIndex="30"/>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_TKB_SINGAPORE_CAPITAL" SortIndex="40"/>
+  </CivilizationInfo>
+
+  <CivilizationCitizenNames>
+    <Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_MALE_1" Female="0"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_MALE_2" Female="0"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_MALE_3" Female="0"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_MALE_4" Female="0"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_1" Female="1"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_2" Female="1"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_3" Female="1"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_4" Female="1"/>
+	<Row CivilizationType="CIVILIZATION_TKB_SINGAPORE" CitizenName="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_5" Female="1"/>
+  </CivilizationCitizenNames>
+</GameInfo>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameInfo>
+  <IconDefinitions>
+    <Row Name="ICON_DISTRICT_TKB_HDB_ESTATE" Atlas="ICON_ATLAS_EXPANSION_2_DISTRICTS" Index="10"/>
+	<Row Name="ICON_CIVILIZATION_TKB_SINGAPORE" Atlas="ICON_ATLAS_EXPANSION_2_CIVILIZATIONS" Index="10"/>
+	<Row Name="ICON_LEADER_TKB_LKY" Atlas="ICON_ATLAS_EXPANSION_2_LEADERS" Index="10"/>
+  </IconDefinitions>
+</GameInfo>

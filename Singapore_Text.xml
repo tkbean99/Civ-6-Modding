@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_TKB_SINGAPORE_NAME" Language="en_US">
+			<Text>Singapore</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_TKB_SINGAPORE_DESCRIPTION" Language="en_US">
+			<Text>Republic of Singapore</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_TKB_SINGAPORE_ADJECTIVE" Language="en_US">
+			<Text>Singaporean</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_TKB_LKY_NAME" Language="en_US">
+			<Text>Lee Kuan Yew</Text>
+		</Row>
+
+		<!--Civilization Trait-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE_NAME" Language="en_US">
+			<Text>Crossroads of Global Maritime Trade</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CROSSROADS_OF_GLOBAL_TRADE_DESCRIPTION" Language="en_US">
+			<Text>Receive additional [ICON_TradeRoute] Trade Route capacity when advancing through the civics and technology trees. Receive aspects of the civilization abilities Dharma, Dynastic Cycles, Great Nusantara, Meiji Restoration and Workshop of the World. Outgoing [ICON_TradeRoute] Trade Routes gain +1 [ICON_Gold] for each water tile in the city, grant +2 [ICON_Food] Food, +2 [ICON_Gold] Gold and +2 [ICON_Science] for each plantation at the destination and grant +2 [ICON_Production] Production, +2 [ICON_Gold] Gold and +2 [ICON_Science] for each improved strategic resource at the destination. Trade routes sent to Singapore from other civilizations provide +6 [ICON_Gold], +1 [ICON_Culture] and +1 [ICON_Science] for the sender and +2 [ICON_Food] Food, +2 [ICON_Production] Production, +2 [ICON_Gold] Gold, +3 [ICON_Culture] Culture and +3 [ICON_Science] to Singapore. Cannot found new cities or hold on to captured cities.</Text>
+		</Row>
+		<!--List of techs and civics granting trade routes: Sailing, Celestial Navigation, Currency, Cartography, Steam Power, Refining, Flight, Telecommunications, Colonialism, Mercantilism, Globalization-->
+		
+		<!--Leader Trait-->
+		<Row Tag="LOC_TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST_NAME" Language="en_US">
+			<Text>From Third World to First</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_FROM_THIRD_WORLD_TO_FIRST_DESCRIPTION" Language="en_US">
+			<Text> Gain an extra Economic policy slot in any government. Time for governors to establish in cities is reduced. Singapore receives +50% [ICON_Production] Production towards city projects and +100% [ICON_FAVOR] Diplomatic Favor from each city-state Singapore is a Suzerain of. Gain one influence point per turn towards earning [ICON_ENVOY] Envoys</Text>
+		</Row>
+
+		<!--Unique Infrastructure-->
+		<Row Tag="LOC_DISTRICT_TKB_HDB_ESTATE_NAME" Language="en_US">
+			<Text>HDB Estate</Text>
+		</Row>
+		
+		<Row Tag="LOC_DISTRICT_TKB_HDB_ESTATE_DESCRIPTION" Language="en_US">
+			<Text>The HDB Estate replaces the Neighbourhood and provides 10 [ICON_HOUSING] Housing regardless of Appeal, +3 [ICON_AMENITIES] Amenities, +1 [ICON_TradeRoute] Trade Route capacity, +2 [ICON_CULTURE] Culture and +2 [ICON_FODD] Food. Only Singapore may build it.</Text>
+		</Row>
+        <!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_DISTRICTSS_PAGE_DISTRICT_TKB_HDB_ESTATE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>I'm not going to write the historical context about the HDB Estate...</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TKB_LKY_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Jasper kitty is a charismatic and typically friendly.  He prefers diplomatic trades that involve food.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TKB_LKY_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TKB_LKY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TKB_SINGAPORE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Singapore have a rich history, but are too lazy to write about it.</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_MALE_1" Language="en_US">
+			<Text>Muhammed</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_MALE_2" Language="en_US">
+			<Text>Arul</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_MALE_3" Language="en_US">
+			<Text>Wei Jun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_MALE_4" Language="en_US">
+			<Text>Ryan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_1" Language="en_US">
+			<Text>Nurin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_2" Language="en_US">
+			<Text>Xinyi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_3" Language="en_US">
+			<Text>Suruthi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_4" Language="en_US">
+			<Text>Praveen</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TKB_SINGAPORE_FEMALE_5" Language="en_US">
+			<Text>Lin</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_TKB_SINGAPORE" Language="en_US">
+			<Text>Singapore</Text>
+		</Row>
+
+		<!--Civilization Factoids -->
+		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
+			<Text>Binomial Name</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
+			<Text>Felis catus</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_TKB_LKY_QUOTE" Language="en_US">
+			<Text>Meow.</Text>
+		</Row>
+    
+    <!-- Leader Dialog -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TKB_LKY_ANY" Language="en_US">
+      <Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TKB_LKY_ANY" Language="en_US">
+      <Text>I haz a box.  Wanna see?</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TKB_LKY_ANY" Language="en_US">
+      <Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
+    </Row>
+	</LocalizedText>
+</GameData>
