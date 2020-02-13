@@ -35,10 +35,6 @@ INSERT INTO Districts
 SELECT 'DISTRICT_TKB_HDB_ESTATE', 'LOC_DISTRICT_TKB_HDB_ESTATE_NAME', PrereqTech, PrereqCivic, Coast, 'LOC_TRAIT_CIVILIZATION_TKB_HDB_ESTATE_DESCRIPTION', Cost/2, RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct,InternalOnly,ZOC,FreeEmbark,HitPoints,CaptureRemovesBuildings,CaptureRemovesCityDefenses,PlunderType,PlunderAmount,TradeEmbark,MilitaryDomain,CostProgressionModel,CostProgressionParam1,'TRAIT_CIVILIZATION_TKB_HDB_ESTATE',Appeal,Housing+6,Entertainment,OnePerCity,AllowsHolyCity,Maintenance,AirSlots,CitizenSlots,TravelTime,CityStrengthModifier,AdjacentToLand,CanAttack,AdvisorType,CaptureRemovesDistrict,MaxPerPlayer 
 FROM Districts WHERE DistrictType='DISTRICT_NEIGHBORHOOD';
 
---INSERT INTO Districts	
---		(DistrictType,	Name,	PrereqTech, PrereqCivic,	Coast, Description, Cost,	RequiresPlacement,	RequiresPopulation,		NoAdjacentCity,	CityCenter, Aqueduct,InternalOnly,ZOC,FreeEmbark,HitPoints,CaptureRemovesBuildings,CaptureRemovesCityDefenses,PlunderType,PlunderAmount,TradeEmbark,MilitaryDomain,CostProgressionModel,CostProgressionParam1,TraitType,Appeal,Housing,Entertainment,OnePerCity,AllowsHolyCity,Maintenance,AirSlots,CitizenSlots,TravelTime,CityStrengthModifier,AdjacentToLand,CanAttack,AdvisorType,CaptureRemovesDistrict,MaxPerPlayer)
---SELECT 'DISTRICT_TKB_HDB_ESTATE', 'LOC_DISTRICT_TKB_HDB_ESTATE_NAME', Coast, PrereqTech, PrereqCivic, 'LOC_DISTRICT_TKB_HDB_ESTATE_DESCRIPTION', Cost/2, RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct,InternalOnly,ZOC,FreeEmbark,HitPoints,CaptureRemovesBuildings,CaptureRemovesCityDefenses,PlunderType,PlunderAmount,TradeEmbark,MilitaryDomain,CostProgressionModel,CostProgressionParam1,'TRAIT_CIVILIZATION_TKB_HDB_ESTATE',Appeal,Housing=10,Entertainment=3,OnePerCity,AllowsHolyCity,Maintenance,AirSlots,CitizenSlots,TravelTime,CityStrengthModifier,AdjacentToLand,CanAttack,AdvisorType,CaptureRemovesDistrict,MaxPerPlayer 
---FROM Districts WHERE DistrictType='DISTRICT_NEIGHBORHOOD';
 -----------------------------------------------
 -- DistrictReplaces
 -----------------------------------------------
